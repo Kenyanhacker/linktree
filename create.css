@@ -1,0 +1,60 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #111 !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #0f0f0f 0%, #1c1c1c 100%);
+    transition: background-color 0.5s ease;
+}
+
+.feature-box {
+    background-color: #111;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #444;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 255, 255, 0.3);
+}
+
+.text-secondary {
+    color: #bbb !important;
+}
+
+.btn-dark {
+    background-color: #00ffff;
+    color: #000;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #00cccc;
+    color: #000;
+}
+
+.btn-primary {
+    background-color: #00ffff;
+    border: none;
+    color: #000;
+}
+
+.btn-primary:hover {
+    background-color: #00cccc;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+}
